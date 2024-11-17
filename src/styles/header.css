@@ -1,0 +1,75 @@
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+header section{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+header h1{
+  cursor: pointer;
+}
+
+header h1.light{
+  color: #333;
+}
+
+header h1.dark{
+  color: white;
+}
+
+header section a{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+header section.light{
+  color: #333;
+}
+
+header section.dark{
+  color: white;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: transparent;
+}
+
+.yellow-circle {
+  width: 100px;
+  height: 100px;
+  background-color: #FFC107;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(255, 193, 7, 0.7);
+}
+
+.theme-toggle {
+  background: none;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s ease-in;
+  margin-left: 10px;
+}
+
+.theme-toggle img{
+  height: 35px;
+  width: 35px;
+}

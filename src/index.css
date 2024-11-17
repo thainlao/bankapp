@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 12px; 
+  background-color: #1c1e41; 
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #0c0d1d;
+  border: 1px solid #f200b2;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
